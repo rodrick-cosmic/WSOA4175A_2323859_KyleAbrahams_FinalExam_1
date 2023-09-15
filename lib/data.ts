@@ -1,4 +1,5 @@
 'use client'
+
 import React from "react";
 import { LuClock10, LuClock2, LuClock3, LuClock4, LuClock5, LuClock6, LuClock7, LuClock8, LuTarget } from "react-icons/lu";
 import { LuClock1} from "react-icons/lu";
@@ -16,7 +17,10 @@ export const links = [
     name: "Home",
     hash: "#home",
   },
-
+  {
+    name: "About",
+    hash: "#about",
+  },
   {
     name: "Blogs", //projects
     hash: "#projects",
